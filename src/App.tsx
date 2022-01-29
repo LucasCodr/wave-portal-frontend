@@ -148,7 +148,11 @@ function App() {
 								<Text>{message}</Text>
 
 								<Text alignSelf={'flex-end'}>
-									{new Intl.DateTimeFormat('en-US', { dateStyle: 'short', timeStyle: 'medium' }).format(new Date(timestamp * 1000))}
+									{new Intl.DateTimeFormat(
+										'en-US',
+										{ dateStyle: 'short', timeStyle: 'medium' }
+									)
+										.format(new Date(timestamp * 1000))}
 								</Text>
 							</VStack>
 						</VStack>
