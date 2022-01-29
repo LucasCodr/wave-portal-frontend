@@ -13,11 +13,13 @@
     "@types/node": "^16.11.17",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "eth-rpc-errors": "^4.0.3",
+    "ethers": "^5.5.3",
     "framer-motion": "^5",
-    "moralis": "^0.0.178",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-emoji-rain": "^1.0.5",
+    "react-query": "^3.34.8",
     "react-scripts": "5.0.0",
     "react-spring": "^9.3.3",
     "typescript": "^4.5.4",
@@ -46,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typechain": "^6.1.0"
   }
 }
