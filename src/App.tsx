@@ -31,7 +31,7 @@ function App() {
 		const { ethereum } = window as any
 
 		if (!ethereum)
-			return alert('Make sure you have MetaMask!')
+			alert('Make sure you have MetaMask!')
 
 		const accounts = await ethereum.request({ method: 'eth_accounts' })
 
