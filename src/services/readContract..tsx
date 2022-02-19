@@ -6,7 +6,7 @@ async function fetchContractData(contractAddress: string, abi: string, method: s
 
 	if (!ethereum) throw new Error('Ethereum provider not found!');
 
-	const provider = new ethers.providers.Web3Provider(ethereum);
+	const provider = new ethers.providers.JsonRpcProvider('https://rpc-mumbai.maticvigil.com/');
 
 	const contract = new Contract(contractAddress, abi, provider);
 
